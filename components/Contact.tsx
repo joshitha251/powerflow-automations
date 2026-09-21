@@ -41,10 +41,10 @@ export default function Contact() {
                 Prefer to talk directly?
               </h2>
               <a
-                href="mailto:studio@primeagents.ai"
+                href="mailto:systems@powerflow-automations.com"
                 className="mt-8 inline-block font-mono text-[20px] sm:text-[25px] text-ink underline decoration-ink/35 underline-offset-4 hover:text-ink-soft transition-colors break-all"
               >
-                studio@primeagents.ai
+                systems@powerflow-automations.com
               </a>
               <p className="text-[16px] sm:text-[17px] leading-relaxed text-ink-muted mt-7 max-w-xl">
                 Tell us what you&rsquo;re building, what&rsquo;s slowing you down, or

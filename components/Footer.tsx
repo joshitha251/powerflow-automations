@@ -28,10 +28,10 @@ export default function Footer() {
           <div className="flex flex-wrap gap-x-10 gap-y-4">
             
             <a
-              href="mailto:studio@primeagents.ai"
+              href="mailto:systems@powerflow-automations.com"
               className="text-[13.5px] text-ink-muted hover:text-ink transition-colors self-start"
             >
-              studio@primeagents.ai
+              systems@powerflow-automations.com
             </a>
           </div>
         </div>
