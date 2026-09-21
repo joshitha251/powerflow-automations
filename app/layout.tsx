@@ -20,7 +20,7 @@ export const metadata: Metadata = {
   title: "PowerFlow Automations — AI Engineering & Intelligent Systems",
   description:
     "PowerFlow Automations builds AI agent systems, multi-agent systems, backend infrastructure, integrations, and conversational AI engineered around real business problems.",
-  metadataBase: new URL("https://powerflow-automations.com"),
+  metadataBase: new URL("https://www.powerflow-automations.com"),
   alternates: {
   canonical: "/",
 },

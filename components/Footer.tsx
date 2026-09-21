@@ -11,7 +11,7 @@ export default function Footer() {
             <div className="flex items-center gap-2.5">
               <Image
                 src="/images/logo.png"
-                alt="PrimeAgents"
+                alt="PowerFlow Automations"
                 width={28}
                 height={17}
                 className="h-5 w-auto"
