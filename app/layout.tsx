@@ -21,6 +21,9 @@ export const metadata: Metadata = {
   description:
     "PowerFlow Automations builds AI agent systems, multi-agent systems, backend infrastructure, integrations, and conversational AI engineered around real business problems.",
   metadataBase: new URL("https://powerflow-automations.com"),
+  alternates: {
+  canonical: "/",
+},
   openGraph: {
     title: "PowerFlow Automations — AI Engineering & Intelligent Systems",
     description:
