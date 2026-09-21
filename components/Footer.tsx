@@ -1,11 +1,6 @@
 import Image from "next/image";
 
-const LINKS = [
-  { label: "Capabilities", href: "#" },
-  { label: "Approach", href: "#approach" },
-  { label: "Systems", href: "#systems" },
-  { label: "Contact", href: "#contact" },
-];
+
 
 export default function Footer() {
   return (
@@ -31,17 +26,7 @@ export default function Footer() {
           </div>
 
           <div className="flex flex-wrap gap-x-10 gap-y-4">
-            <nav className="flex flex-col gap-2.5">
-              {LINKS.map((l) => (
-                <a
-                  key={l.label}
-                  href={l.href}
-                  className="text-[13.5px] text-ink-muted hover:text-ink transition-colors"
-                >
-                  {l.label}
-                </a>
-              ))}
-            </nav>
+            
             <a
               href="mailto:studio@primeagents.ai"
               className="text-[13.5px] text-ink-muted hover:text-ink transition-colors self-start"

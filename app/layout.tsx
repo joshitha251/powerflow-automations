@@ -17,12 +17,12 @@ const body = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "PrimeAgents — AI Engineering & Intelligent Systems",
+  title: "PowerFlow Automations — AI Engineering & Intelligent Systems",
   description:
-    "PrimeAgents builds AI agent systems, multi-agent systems, backend infrastructure, integrations, and conversational AI engineered around real business problems.",
-  metadataBase: new URL("https://primeagents.ai"),
+    "PowerFlow Automations builds AI agent systems, multi-agent systems, backend infrastructure, integrations, and conversational AI engineered around real business problems.",
+  metadataBase: new URL("https://powerflow-automations.com"),
   openGraph: {
-    title: "PrimeAgents — AI Engineering & Intelligent Systems",
+    title: "PowerFlow Automations — AI Engineering & Intelligent Systems",
     description:
       "AI agent systems, multi-agent systems, backend infrastructure and conversational AI, engineered around real business problems.",
     type: "website",

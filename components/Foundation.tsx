@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 
 function StructureGraphic() {
   return (
-    <figure className="mx-auto w-full max-w-[430px]">
+    <figure className="hidden sm:block mx-auto w-full max-w-[430px]">
       <svg viewBox="0 0 420 520" fill="none" className="w-full h-auto" aria-hidden="true">
         {[0, 1, 2, 3, 4, 5].map((i) => (
           <line key={`h-${i}`} x1="0" y1={i * 72} x2="420" y2={i * 72} stroke="#101820" strokeOpacity="0.1" />

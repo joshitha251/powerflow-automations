@@ -31,9 +31,9 @@ export default function Hero() {
             initial="hidden"
             animate="show"
             variants={reveal}
-            className="font-display font-bold text-[clamp(2.8rem,8vw,110px)] leading-[0.84] text-ink tracking-[-0.06em] whitespace-nowrap mt-0"
+            className="font-display font-bold text-[clamp(2.8rem,8vw,110px)] leading-[0.84] text-ink tracking-[-0.06em] whitespace-normal sm:whitespace-nowrap mt-0"
           >
-            POWERFLOW AUTOMATIONS
+            POWERFLOW  AUTOMATIONS
           </motion.h1>
 
           <div className="mt-13 sm:mt-14 flex flex-wrap items-baseline justify-center gap-2 sm:gap-4">
