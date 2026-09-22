@@ -1,6 +1,9 @@
 import type { Metadata, Viewport } from "next";
 import { Space_Grotesk, Inter } from "next/font/google";
 import "./globals.css";
+import Script from "next/script";
+
+
 
 const display = Space_Grotesk({
   subsets: ["latin"],
@@ -46,7 +49,24 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className={`${display.variable} ${body.variable}`}>
-      <body className="font-body antialiased">{children}</body>
+      <body className="font-body antialiased">{children}
+
+        <Script
+  src="https://www.googletagmanager.com/gtag/js?id=G-HBJ9H1RMQ7"
+  strategy="afterInteractive"
+/>
+
+<Script id="google-analytics" strategy="afterInteractive">
+  {`
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){window.dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-HBJ9H1RMQ7');
+  `}
+</Script>
+
+      </body>
     </html>
   );
 }
