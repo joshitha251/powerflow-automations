@@ -36,7 +36,7 @@ export default function Hero() {
             POWERFLOW  AUTOMATIONS
           </motion.h1>
 
-          <div className="mt-13 sm:mt-14 flex flex-wrap items-baseline justify-center gap-2 sm:gap-4">
+          <div className="mt-16 sm:mt-14 flex flex-wrap items-baseline justify-center gap-2 sm:gap-4">
             <motion.p
               custom={2}
               initial="hidden"
